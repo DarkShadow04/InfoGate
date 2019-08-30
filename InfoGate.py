@@ -12,7 +12,7 @@ def main():
 	print "   [02] Scanning"
 	print "   [03] Enumeration"
 	print "   [04] Password Attacks"
-	print "   [05] Other\n"0
+	print "   [05] Other\n"
 	print "   [10] Exit the InfoGate\n"
 	InfoGate = raw_input("GATE > ")
 	
