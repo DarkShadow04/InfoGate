@@ -17,7 +17,7 @@ def main():
 	InfoGate = raw_input("GATE > ")
 	
 	if InfoGate == "1" or InfoGate == "01":
-		print "\n  [01] Nmap"
+		print "    [01] Nmap"
 		print "    [02] Red Hawk"
 		print "    [03] D-Tect"
 		print "    [04] sqlmap"
