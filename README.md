@@ -15,6 +15,9 @@ git clone https://github.com/DarkShadow04/InfoGate
 cd InfoGate
 ```
 ```
+chmod +x InfoGate.py
+```
+```
 python2 InfoGate.py
 ```
 
