@@ -181,15 +181,15 @@ def main():
 		print "    [02] Vbugmap"
 		print "    [03] A-Rat"
 		print "    [00] Back to main menu\n"
-		scanning = raw_input("GATE > ")
+		malware = raw_input("GATE > ")
 
-		if  == "01" or Malware == "1":
+		if malware  == "01" or malware == "1":
 			vbug()
-		elif Malware == "02" or Malware == "2":
+		elif malware == "02" or malware == "2":
 			vbugmap()
-		elif Malware == "03" or Malware == "3":
+		elif malware == "03" or malware == "3":
 			a_rat()
-		elif Malware == "00" or Malware == "0":
+		elif malware == "00" or malware == "0":
 			restart_program()
 		else:
 			print
