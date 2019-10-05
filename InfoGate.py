@@ -13,10 +13,10 @@ def main():
 	print "   [03] Enumeration"
 	print "   [04] Password Attacks"
 	print "   [05] Malware Making"
-	print "   [05] Wifi Attacks"
-	print "   [06] DDos/Dos"
-	print "   [07] Exploits"
-	print "   [06] Other\n"
+	print "   [06] Wifi Attacks"
+	print "   [07] DDos/Dos"
+	print "   [08] Exploits"
+	print "   [09] Other\n"
 	print "   [10] Exit the InfoGate\n"
 	InfoGate = raw_input("GATE > ")
 	
@@ -27,7 +27,8 @@ def main():
 		print "    [04] sqlmap"
 		print "    [05] Infoga"
 		print "    [06] ReconDog"
-		print "    [07] Zenmap\n"
+		print "    [07] IPGeolocation"
+		print "    [08] Zenmap\n"
 		print "    [00] Back to main menu\n"
 		infogathering = raw_input("GATE > ")
 		
@@ -44,6 +45,8 @@ def main():
 		elif infogathering == "06" or infogathering == "6":
 			reconDog()
 		elif infogathering == "07" or infogathering == "7":
+			IPGeoLocation()
+		elif infogathering == "08" or infogathering == "8":
 			Zenmap()
 		elif infogathering == "00" or infogathering == "0":
 			restart_program()
@@ -190,6 +193,48 @@ def main():
 		elif malware == "03" or malware == "3":
 			a_rat()
 		elif malware == "00" or malware == "0":
+			restart_program()
+		else:
+			print
+			"\nERROR: Wrong Input"
+			timeout(2)
+			restart_program()
+
+	elif InfoGate == "6" or InfoGate == "06":
+		print "\n    [01] Fluxion"
+		print "    [02] Routerspoit"
+		print "    [03] Lazy Script"
+		print "    [00] Back to main menu\n"
+		wifiatk = raw_input("GATE > ")
+
+		if wifiatk  == "01" or wifiatk == "1":
+			fluxion()
+		elif wifiatk == "02" or wifiatk == "2":
+			routersploit()
+		elif wifiatk == "03" or wifiatk == "3":
+			lscript()
+		elif wifiatk == "00" or wifiatk == "0":
+			restart_program()
+		else:
+			print
+			"\nERROR: Wrong Input"
+			timeout(2)
+			restart_program()
+
+	elif InfoGate == "7" or InfoGate == "07":
+		print "\n    [01] Fluxion"
+		print "    [02] Routerspoit"
+		print "    [03] Lazy Script"
+		print "    [00] Back to main menu\n"
+		ddos = raw_input("GATE > ")
+
+		if ddos  == "01" or ddos == "1":
+			fluxion()
+		elif ddos == "02" or ddos == "2":
+			routersploit()
+		elif ddos == "03" or ddos == "3":
+			lscript()
+		elif ddos == "00" or ddos == "0":
 			restart_program()
 		else:
 			print

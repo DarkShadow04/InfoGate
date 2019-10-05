@@ -110,6 +110,15 @@ def androZenmap():
 	print '###### Done'
 	backtomenu_option()
 
+def IPGeoLocation():
+	print '\n###### Installing IPGeoLocation'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python3')
+	os.system('git clone https://github.com/maldevel/IPGeoLocation')
+	os.system('apt-get install python3-setuptools')
+	print '###### Done'
+	backtomenu_option()
+
 def sqliv():
 	print '\n###### Installing SQLiv'
 	os.system('apt update && apt upgrade')
@@ -364,5 +373,30 @@ def a_rat():
 	os.system('apt install python2 git')
 	os.system('git clone https://github.com/Xi4u7/A-Rat')
 	os.system('mv A-Rat ~')
+	print '###### Done'
+	backtomenu_option()
+
+def fluxion():
+	print '\n###### Installing Fluxion'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone https://www.github.com/FluxionNetwork/fluxion.git')
+	os.system('apt-get install hostapd')
+	os.system('apt-get install isc-dhcp-server')
+	os.system('apt-get install lighttpd')
+	os.system('apt-get install php-cgi')
+	os.system('apt-get install mdk4')
+	print '###### Done'
+	backtomenu_option()
+
+
+def lscript():
+	print '\n###### Installing Lazy Script'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone https://github.com/arismelachroinos/lscript.git')
+	os.system('cd lscript')
+	os.system('chmod +x install.sh')
+	os.system('./install.sh')
 	print '###### Done'
 	backtomenu_option()
