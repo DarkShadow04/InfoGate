@@ -16,7 +16,7 @@ def main():
 	print "   [06] Wifi Attacks"
 	print "   [07] DDos/Dos"
 	print "   [08] Exploits"
-	print "   [09] Other\n"
+	print "   [09] Other(Termux)\n"
 	print "   [10] Exit the InfoGate\n"
 	InfoGate = raw_input("GATE > ")
 	
@@ -222,18 +222,27 @@ def main():
 			restart_program()
 
 	elif InfoGate == "7" or InfoGate == "07":
-		print "\n    [01] Fluxion"
-		print "    [02] Routerspoit"
-		print "    [03] Lazy Script"
+		print "\n    [01] DDOSIM"
+		print "    [02] Torshammer"
+		print "    [03] Fl00d & Fl00d2"
+		print "    [04] GoldenEye"
+		print "    [05] Xerxes"
+		print "    [06] santet-online\n"
 		print "    [00] Back to main menu\n"
 		ddos = raw_input("GATE > ")
 
 		if ddos  == "01" or ddos == "1":
-			fluxion()
+			DDOSIM()
 		elif ddos == "02" or ddos == "2":
-			routersploit()
+			torshammer()
 		elif ddos == "03" or ddos == "3":
-			lscript()
+			fl00d12()
+		elif ddos == "04" or ddos == "4":
+			goldeneye()
+		elif ddos == "05" or ddos == "5":
+			xerxes()
+		elif ddos == "06" or ddos == "6":
+			sanlen()
 		elif ddos == "00" or ddos == "0":
 			restart_program()
 		else:
@@ -241,6 +250,84 @@ def main():
 			"\nERROR: Wrong Input"
 			timeout(2)
 			restart_program()
+
+	elif InfoGate == "8" or InfoGate == "08":
+		print "\n    [01] Metasploit-Termux"
+		print "    [02] commix"
+		print "    [03] Brutal"
+		print "    [04] WPSploit"  
+		print "    [05] Websploit"
+		print "    [06] Routersploit"
+		print "    [07] XAttacker"
+		print "    [08] TXTool"
+		print "    [09] Binary Exploitation"
+		print "    [10] ASU\n"
+		print "    [00] Back to main menu\n"
+		exploit = raw_input("GATE > ")
+		
+		if exploit == "01" or exploit == "1":
+			metasploit()
+		elif exploit == "02" or exploit == "2":
+			commix()
+		elif exploit == "03" or exploit == "3":
+			brutal()
+		elif exploit == "04" or exploit == "4":
+			wpsploit()
+		elif exploit == "05" or exploit == "5":
+			websploit()
+		elif exploit == "06" or exploit == "6":
+			routersploit()
+		elif exploit == "07" or exploit == "7":
+			xattacker()
+		elif exploit == "08" or exploit == "8":
+			txtool()
+		elif exploit == "09" or exploit == "9":
+			binploit()
+		elif exploit == "10":
+			asu()
+		elif exploit == "00" or exploit == "0":
+			restart_program()
+		else:
+			print "\nERROR: Wrong Input"
+			timeout(2)
+			restart_program()
+
+	elif InfoGate == "9" or InfoGate == "09":
+		print "\n    [01] SpiderBot"
+		print "    [02] Ngrok"
+		print "    [03] Sudo"
+		print "    [04] Ubuntu"
+		print "    [05] Fedora"
+		print "    [06] Kali Nethunter"
+		print "    [00] Back to main menu\n"
+		moretool = raw_input("GATE > ")
+
+		if moretool == "01" or moretool == "1":
+			spiderbot()
+		elif moretool == "02" or moretool == "2":
+			ngrok()
+		elif moretool == "03" or moretool == "3":
+			sudo()
+		elif moretool == "04" or moretool == "4":
+			ubuntu()
+		elif moretool == "05" or moretool == "5":
+			fedora()
+		elif moretool == "06" or moretool == "6":
+			nethunter()
+		elif moretool == "00" or moretool == "0":
+			restart_program()
+		else:
+			print "\nERROR: Wrong Input"
+			timeout(2)
+			restart_program()
+
+	elif InfoGate == "10":
+		sys.exit()
+
+	else:
+		print "\nERROR: Wrong Input"
+		timeout(2)
+		restart_program()
 
 if __name__ == "__main__":
 	main()

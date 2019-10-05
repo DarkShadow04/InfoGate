@@ -400,3 +400,195 @@ def lscript():
 	os.system('./install.sh')
 	print '###### Done'
 	backtomenu_option()
+
+def DDOSIM():
+	print '\n###### Installing DDOSIM'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone https://github.com/r00tabega/DDOSIM.git')
+	os.system('cd DDOSIM')
+	os.system('chmod +x ddosim-install.sh')
+	os.system('sudo ./ddosim-install.sh')
+	print '###### Done'
+	backtomenu_option()
+
+def torshammer():
+	print '\n###### Installing Torshammer'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone https://github.com/dotfighter/torshammer')
+	os.system('mv torshammer ~')
+	print '###### Done'
+	backtomenu_option()
+
+def fl00d12():
+	print '\n###### Installing Fl00d & Fl00d2'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 curl')
+	os.system('mkdir ~/fl00d')
+	os.system('curl -O https://raw.githubusercontent.com/Gameye98/Gameye98.github.io/master/scripts/fl00d.py')
+	os.system('curl -O https://raw.githubusercontent.com/Gameye98/Gameye98.github.io/master/scripts/fl00d2.py')
+	os.system('mv fl00d.py ~/fl00d && mv fl00d2.py ~/fl00d')
+	print '###### Done'
+	backtomenu_option()
+
+def goldeneye():
+	print '\n###### Installing GoldenEye'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2')
+	os.system('git clone https://github.com/jseidl/GoldenEye')
+	os.system('mv GoldenEye ~')
+	print '###### Done'
+	backtomenu_option()
+
+def xerxes():
+	print '\n###### Installing Xerxes'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git')
+	os.system('apt install clang')
+	os.system('git clone https://github.com/zanyarjamal/xerxes')
+	os.system('mv xerxes ~')
+	os.system('cd ~/xerxes && clang xerxes.c -o xerxes')
+	print '###### Done'
+	backtomenu_option()
+
+def sanlen():
+	print '\n###### Installing santet-online'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2 && python2 -m pip install requests')
+	os.system('git clone https://github.com/Gameye98/santet-online')
+	os.system('mv santet-online ~')
+	print '###### Done'
+	backtomenu_option()
+
+def metasploit():
+	print '\n###### Installing Metasploit'
+	os.system("apt update && apt upgrade")
+	os.system("apt install git wget curl")
+	os.system("pkg intall unstable-repo")
+	os.system("apt install metasploit")
+	print '###### Done'
+	print "###### Type 'msfconsole' to start."
+	backtomenu_option()
+
+def commix():
+	print '\n###### Installing Commix'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone https://github.com/commixproject/commix')
+	os.system('mv commix ~')
+	print '###### Done'
+	backtomenu_option()
+
+def brutal():
+	print '\n###### Installing Brutal'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git')
+	os.system('git clone https://github.com/Screetsec/Brutal')
+	os.system('mv Brutal ~')
+	print '###### Done'
+	backtomenu_option()
+
+def wpsploit():
+	print '\n###### Installing WPSploit'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone git clone https://github.com/m4ll0k/wpsploit')
+	os.system('mv wpsploit ~')
+	print '###### Done'
+	backtomenu_option()
+
+def websploit():
+	print '\n###### Installing Websploit'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2')
+	os.system('python2 -m pip install scapy')
+	os.system('git clone https://github.com/The404Hacking/websploit')
+	os.system('mv websploit ~')
+	print '###### Done'
+	backtomenu_option()
+
+def txtool():
+	print '\n###### Installing TXTool'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2 nmap php curl')
+	os.system('python2 -m pip install requests')
+	os.system('git clone https://github.com/kuburan/txtool')
+	os.system('mv txtool ~')
+	print '###### Done'
+	backtomenu_option()
+
+def binploit():
+	print '\n###### Installing Binary Exploitation'
+	os.system('apt update && apt upgrade')
+	os.system('apt install gdb radare2 ired ddrescue bin-utils yasm strace ltrace cdb hexcurse memcached llvmdb')
+	print "###### Done"
+	print "###### Tutorial: https://youtu.be/3NTXFUxcKPc"
+	backtomenu_option()
+
+def asu():
+	print '\n###### Installing ASU'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2 php')
+	os.system('python2 -m pip install requests bs4 mechanize')
+	os.system('git clone https://github.com/LOoLzeC/ASU')
+	os.system('mv ASU ~')
+	print '###### Done'
+	backtomenu_option()
+
+def spiderbot():
+	print '\n###### Installing SpiderBot'
+	os.system("apt update && apt upgrade")
+	os.system("apt install git php")
+	os.system("git clone https://github.com/Cvar1984/SpiderBot")
+	os.system("mv SpiderBot ~")
+	print '###### Done'
+	backtomenu_option()
+
+def ngrok():
+	print '\n###### Installing Ngrok'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git')
+	os.system('git clone https://github.com/themastersunil/ngrok')
+	os.system('mv ngrok ~')
+	print '###### Done'
+	backtomenu_option()
+
+def sudo():
+	print '\n###### Installing sudo'
+	os.system('apt update && apt upgrade')
+	os.system('apt install ncurses-utils git')
+	os.system('git clone https://github.com/st42/termux-sudo')
+	os.system('mv termux-sudo ~ && cd ~/termux-sudo && chmod 777 *')
+	os.system('cat sudo > /data/data/com.termux/files/usr/bin/sudo')
+	os.system('chmod 700 /data/data/com.termux/files/usr/bin/sudo')
+	print '###### Done'
+	backtomenu_option()
+
+def ubuntu():
+	print '\n###### Installing Ubuntu'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone https://github.com/Neo-Oli/termux-ubuntu')
+	os.system('mv termux-ubuntu ~ && cd ~/termux-ubuntu && bash ubuntu.sh')
+	print '###### Done'
+	backtomenu_option()
+
+def fedora():
+	print '\n###### Installing Fedora'
+	os.system('apt update && apt upgrade')
+	os.system('apt install wget git')
+	os.system('wget https://raw.githubusercontent.com/nmilosev/termux-fedora/master/termux-fedora.sh')
+	os.system('mv termux-fedora.sh ~')
+	print '###### Done'
+	backtomenu_option()
+
+def nethunter():
+	print '\n###### Installing Kali NetHunter'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git')
+	os.system('git clone https://github.com/Hax4us/Nethunter-In-Termux')
+	os.system('mv Nethunter-In-Termux ~')
+	print '###### Done'
+	backtomenu_option()
+
