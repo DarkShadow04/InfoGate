@@ -214,3 +214,155 @@ def owscan():
 	os.system('mv OWScan ~')
 	print '###### Done'
 	backtomenu_option()
+
+def hydra():
+	print '\n###### Installing Hydra'
+	os.system('apt update && apt upgrade')
+	os.system('apt install hydra')
+	print '###### Done'
+	backtomenu_option()
+
+def hashid():
+	print '\n###### Installing HashID'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 && python2 -m pip install hashid')
+	print "###### Done"
+	print "###### Type 'hashid -h' to show usage of hashid"
+	backtomenu_option()
+
+def black_hydra():
+	print '\n###### Installing Black Hydra'
+	os.system('apt update && apt upgrade')
+	os.system('apt install hydra git python2')
+	os.system('git clone https://github.com/Gameye98/Black-Hydra')
+	os.system('mv Black-Hydra ~')
+	print '###### Done'
+	backtomenu_option()
+
+def hash_buster():
+	print '\n###### Installing Hash-Buster'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone https://github.com/UltimateHackers/Hash-Buster')
+	os.system('mv Hash-Buster ~')
+	print '###### Done'
+	backtomenu_option()
+
+def cupp():
+	print '\n###### Installing Cupp'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone https://github.com/Mebus/cupp')
+	os.system('mv cupp ~')
+	print '###### Done'
+	backtomenu_option()
+
+def social():
+	print '\n###### Installing Social-Engineering'
+	os.system("apt update && apt upgrade")
+	os.system("apt install python2 perl")
+	os.system("git clone https://github.com/LOoLzeC/social-engineering")
+	os.system("mv social-engineering ~")
+	print '###### Done'
+	backtomenu_option()
+
+def hashzer():
+	print '\n###### Installing Hashzer'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2')
+	os.system('python2 -m pip install requests')
+	os.system('git clone https://github.com/Anb3rSecID/Hashzer')
+	os.system('mv Hashzer ~')
+	print '###### Done'
+	backtomenu_option()
+
+def hashgenerator():
+	print '\n###### Installing Hash-Generator'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2 && python2 -m pip install passlib progressbar')
+	os.system('git clone https://github.com/ciku370/hash-generator')
+	os.system('mv hash-generator ~')
+	print '###### Done'
+	backtomenu_option()
+
+def crunch():
+	print '\n###### Installing Crunch'
+	os.system('apt update && apt upgrade')
+	os.system('apt install unstable-repo')
+	os.system('apt install crunch')
+	print "###### Done"
+	backtomenu_option()
+
+def hashcat():
+	print '\n###### Installing Hashcat'
+	os.system('apt update && apt upgrade')
+	os.system('apt install unstable-repo')
+	os.system('apt install hashcat')
+	print "###### Done"
+	backtomenu_option()
+
+def nikto():
+	print '\n###### Installing Nikto'
+	os.system('apt update && apt upgrade')
+	os.system('apt install perl')
+	os.system('wget https://github.com/sullo/nikto/archive/master.zip')
+	os.system('unzip master.zip')
+	os.system('rm -rvf master.zip')
+	os.system('cd nikto-master/program')
+	os.system('perl nikto.pl')
+	print "###### Done"
+	backtomenu_option()
+
+def dirsearch():
+	print '\n###### Installing Dirsearch'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python')
+	os.system('apt install git')
+	os.system('git clone https://github.com/maurosoria/dirsearch')
+	os.system('cd dirsearch')
+	os.system('python dirsearch.py -h ')
+	print "###### Done"
+	backtomenu_option()
+
+def wpscan():
+	print '\n###### Installing Wpscan'
+	os.system('apt update && apt upgrade')
+	os.system('apt install gem')
+	os.system('apt install rake')
+	os.system('git clone https://github.com/wpscanteam/wpscan')
+	os.system('cd wpscan/')
+	os.system('bundle install && rake install')
+	print "###### Done"
+	backtomenu_option()
+
+def dnsenum():
+	print '\n###### Installing Dnsenum'
+	os.system('apt update && apt upgrade')
+	os.system('apt-get install dnsenum')
+	print "###### Done"
+	backtomenu_option()
+
+def vbug():
+	print '\n###### Installing Vbug'
+	os.system('apt update && apt upgrade')
+	os.system(' pkg install python2')
+	os.system('git clone https://github.com/DarkShadow04/vbug.git')
+	print "###### Done"
+	backtomenu_option()
+
+def vbugmap():
+	print '\n###### Installing Vbugmap'
+	os.system('apt update && apt upgrade')
+	os.system(' pkg install python2')
+	os.system('git clone https://github.com/DarkShadow04/vbugmap.git')
+	print "###### Done"
+	backtomenu_option()
+
+def a_rat():
+	print '\n###### Installing A-Rat'
+	os.system('apt update && apt upgrade')
+	os.system('apt install python2 git')
+	os.system('git clone https://github.com/Xi4u7/A-Rat')
+	os.system('mv A-Rat ~')
+	print '###### Done'
+	backtomenu_option()

@@ -12,7 +12,11 @@ def main():
 	print "   [02] Scanning"
 	print "   [03] Enumeration"
 	print "   [04] Password Attacks"
-	print "   [05] Other\n"
+	print "   [05] Malware Making"
+	print "   [05] Wifi Attacks"
+	print "   [06] DDos/Dos"
+	print "   [07] Exploits"
+	print "   [06] Other\n"
 	print "   [10] Exit the InfoGate\n"
 	InfoGate = raw_input("GATE > ")
 	
@@ -103,6 +107,95 @@ def main():
 			timeout(2)
 			restart_program()
 
+	elif InfoGate == "3" or InfoGate == "03":
+		print "\n    [01] Nmap"
+		print "    [02] Nikto"
+		print "    [03] Dirsearch"
+		print "    [04] Wpscan"
+		print "    [05] Dnsenum"
+		print "    [00] Back to main menu\n"
+		enumeraton = raw_input("GATE > ")
+
+		if enumeraton == "01" or enumeraton == "1":
+			nmap()
+		elif enumeraton == "02" or enumeraton == "2":
+			nikto()
+		elif enumeraton == "03" or enumeraton == "3":
+			dirsearch()
+		elif enumeraton == "04" or enumeraton == "4":
+			wpscan()
+		elif enumeraton == "05" or enumeraton == "5":
+			dnsenum()
+		elif enumeraton == "00" or enumeraton == "0":
+			restart_program()
+		else:
+			print
+			"\nERROR: Wrong Input"
+			timeout(2)
+			restart_program()
+
+	elif InfoGate == "4" or InfoGate == "04":
+		print "\n    [01] Hydra"
+		print "    [02] HashID"
+		print "    [03] Black Hydra"
+		print "    [04] Hash Buster"
+		print "    [05] Cupp"
+		print "    [06] Social-Engineering"
+		print "    [07] Hashzer"
+		print "    [08] Hash-Generator"
+		print "    [09] Crunch"
+		print "    [10] Hashcat\n"
+		print "    [00] Back to main menu\n"
+		Paswdatk = raw_input("GATE > ")
+
+		if Paswdatk == "01" or Paswdatk == "1":
+			hydra()
+		elif Paswdatk == "02" or Paswdatk == "2":
+			hashid()
+		elif Paswdatk == "03" or Paswdatk == "3":
+			black_hydra()
+		elif Paswdatk == "04" or Paswdatk == "4":
+			hash_buster()
+		elif Paswdatk == "05" or Paswdatk == "5":
+			cupp()
+		elif Paswdatk == "06" or Paswdatk == "6":
+			social()
+		elif Paswdatk == "07" or Paswdatk == "7":
+			hashzer()
+		elif Paswdatk == "08" or Paswdatk == "8":
+			hashgenerator()
+		elif Paswdatk == "09" or Paswdatk == "9":
+			crunch()
+		elif Paswdatk == "10":
+			hashcat()
+		elif Paswdatk == "00" or Paswdatk == "0":
+			restart_program()
+		else:
+			print
+			"\nERROR: Wrong Input"
+			timeout(2)
+			restart_program()
+
+	elif InfoGate == "5" or InfoGate == "05":
+		print "\n    [01] Vbug"
+		print "    [02] Vbugmap"
+		print "    [03] A-Rat"
+		print "    [00] Back to main menu\n"
+		scanning = raw_input("GATE > ")
+
+		if  == "01" or Malware == "1":
+			vbug()
+		elif Malware == "02" or Malware == "2":
+			vbugmap()
+		elif Malware == "03" or Malware == "3":
+			a_rat()
+		elif Malware == "00" or Malware == "0":
+			restart_program()
+		else:
+			print
+			"\nERROR: Wrong Input"
+			timeout(2)
+			restart_program()
 
 if __name__ == "__main__":
 	main()
