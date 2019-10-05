@@ -6,6 +6,27 @@ import time
 
 
 InfoGate_banner = """
+..............
+            ..,;:ccc,.
+          ......''';lxO.
+.....''''..........,:ld;
+           .';;;:::;,,.x,
+      ..'''.            0Xxoc:,.  ...
+  ....                ,ONkc;,;cokOdc',.
+ .                   OMo           ':ddo.
+                    dMc               :OO;
+                    0M.                 .:o.
+                    ;Wd
+                     ;XO,
+                       ,d0Odlc;,..
+                           ..',;:cdOOd::,.
+                                    .:d;.':;.
+                                       'd,  .'
+                                         ;l   ..
+                                          .o
+                                            c
+                                            .'
+                                             .
 Author             : Dark_Shadow04
 contact            : darkshadow100497@gmail.com
 Github             : https://github.com/DarkShadow04
