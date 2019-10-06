@@ -71,16 +71,17 @@ def red_hawk():
 	print '\n###### Installing RED HAWK'
 	os.system('apt update && apt upgrade')
 	os.system('apt install git php')
-    os.system('git clone https://github.com/Tuhinshubhra/RED_HAWK')
-    os.system('cp -r RED_HAWK Scanning')
-    print '###### Done'
-    backtomenu_option()
+	os.system('git clone https://github.com/Tuhinshubhra/RED_HAWK')
+	os.system('cp -r RED_HAWK Scanning')
+	print '###### Done'
+	backtomenu_option()
 
 def dtect():
 	print '\n###### Installing D-Tect'
 	os.system('apt update && apt upgrade')
 	os.system('apt install python2 git')
 	os.system('git clone https://github.com/bibortone/D-Tech')
+	os.system('mv D-TECT ~')
 	print '###### Done'
 	backtomenu_option()
 
