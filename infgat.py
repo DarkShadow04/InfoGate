@@ -73,7 +73,7 @@ def red_hawk():
 	os.system('apt install git php')
 	os.system('mkdir RED_HAWK && cd RED_HAWK')
 	os.system('git clone https://github.com/Tuhinshubhra/RED_HAWK')
-	os.system('cd .. && mv -v RED_HAWK Scanning')
+	os.system('mv -v RED_HAWK Scanning')
 	print '###### Done'
 	backtomenu_option()
 
