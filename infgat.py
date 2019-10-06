@@ -71,8 +71,9 @@ def red_hawk():
 	print '\n###### Installing RED HAWK'
 	os.system('apt update && apt upgrade')
 	os.system('apt install git php')
+    os.system('mkdir Scanning')
 	os.system('git clone https://github.com/Tuhinshubhra/RED_HAWK')
-    os.system('mkdir Scanning && mv RED_HAWK Scanning')
+    os.system('mv RED_HAWK Scanning')
     print '###### Done'
 	backtomenu_option()
 
@@ -81,7 +82,6 @@ def dtect():
 	os.system('apt update && apt upgrade')
 	os.system('apt install python2 git')
 	os.system('git clone https://github.com/bibortone/D-Tech')
-    os.system('mkdir Scanning && mv D-TECT Scanning')
 	print '###### Done'
 	backtomenu_option()
 
