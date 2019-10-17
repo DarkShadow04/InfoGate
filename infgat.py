@@ -137,6 +137,7 @@ def IPGeoLocation():
 	os.system('apt install python3')
 	os.system('git clone https://github.com/maldevel/IPGeoLocation')
 	os.system('apt-get install python3-setuptools')
+	os.system('mv IPGeoLocation ~')
 	print '###### Done'
 	backtomenu_option()
 
@@ -362,6 +363,7 @@ def wpscan():
 	os.system('git clone https://github.com/wpscanteam/wpscan')
 	os.system('cd wpscan/')
 	os.system('bundle install && rake install')
+	os.system('mv wpscan ~')
 	print "###### Done"
 	backtomenu_option()
 
@@ -377,6 +379,7 @@ def vbug():
 	os.system('apt update && apt upgrade')
 	os.system(' pkg install python2')
 	os.system('git clone https://github.com/DarkShadow04/vbug.git')
+	os.system('mv Vbug ~')
 	print "###### Done"
 	backtomenu_option()
 
@@ -385,6 +388,7 @@ def vbugmap():
 	os.system('apt update && apt upgrade')
 	os.system(' pkg install python2')
 	os.system('git clone https://github.com/DarkShadow04/vbugmap.git')
+	os.system('mv vbugmap ~')
 	print "###### Done"
 	backtomenu_option()
 
@@ -402,6 +406,7 @@ def fluxion():
 	os.system('apt update && apt upgrade')
 	os.system('apt install python2 git')
 	os.system('git clone https://www.github.com/FluxionNetwork/fluxion.git')
+	os.system('mv fluxion ~')
 	os.system('apt-get install hostapd')
 	os.system('apt-get install isc-dhcp-server')
 	os.system('apt-get install lighttpd')
