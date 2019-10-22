@@ -271,14 +271,6 @@ def hydra():
 	print '###### Done'
 	backtomenu_option()
 
-def hashid():
-	print '\n###### Installing HashID'
-	os.system('apt update && apt upgrade')
-	os.system('apt install python2 && python2 -m pip install hashid')
-	print "###### Done"
-	print "###### Type 'hashid -h' to show usage of hashid"
-	backtomenu_option()
-
 def black_hydra():
 	print '\n###### Installing Black Hydra'
 	os.system('apt update && apt upgrade')
@@ -315,16 +307,6 @@ def social():
 	print '###### Done'
 	backtomenu_option()
 
-def hashzer():
-	print '\n###### Installing Hashzer'
-	os.system('apt update && apt upgrade')
-	os.system('apt install git python2')
-	os.system('python2 -m pip install requests')
-	os.system('git clone https://github.com/Anb3rSecID/Hashzer')
-	os.system('mv Hashzer ~')
-	print '###### Done'
-	backtomenu_option()
-
 def hashgenerator():
 	print '\n###### Installing Hash-Generator'
 	os.system('apt update && apt upgrade')
@@ -339,14 +321,6 @@ def crunch():
 	os.system('apt update && apt upgrade')
 	os.system('apt install unstable-repo')
 	os.system('apt install crunch')
-	print "###### Done"
-	backtomenu_option()
-
-def hashcat():
-	print '\n###### Installing Hashcat'
-	os.system('apt update && apt upgrade')
-	os.system('apt install unstable-repo')
-	os.system('apt install hashcat')
 	print "###### Done"
 	backtomenu_option()
 
