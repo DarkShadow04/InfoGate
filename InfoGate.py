@@ -150,7 +150,7 @@ def main():
 		print "    [04] Cupp"
 		print "    [05] Social-Engineering"
 		print "    [06] Hash-Generator"
-		print "    [07] Crunch"\n"
+		print "    [07] Crunch\n"
 		print "    [00] Back to main menu\n"
 		Paswdatk = raw_input("GATE > ")
 
