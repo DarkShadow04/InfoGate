@@ -101,6 +101,24 @@ def Zenmap():
 	os.system('sudo apt-get install zenmap')
 	print '###### Done'
 	backtomenu_option()
+	
+def saycheese():
+	print '\n###### Installing saycheese'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2')
+	os.system('git clone https://github.com/thelinuxchoice/saycheese.git')
+	os.system('mv saycheese ~')
+	print '###### Done'
+	backtomenu_option()
+
+def locator():
+	print '\n###### Installing locator'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2')
+	os.system('git clone https://github.com/thelinuxchoice/locator.git')
+	os.system('mv locator ~')
+	print '###### Done'
+	backtomenu_option()
 
 def infoga():
 	print '\n###### Installing Infoga'
