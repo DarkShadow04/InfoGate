@@ -145,38 +145,29 @@ def main():
 
 	elif InfoGate == "4" or InfoGate == "04":
 		print "\n    [01] Hydra"
-		print "    [02] HashID"
-		print "    [03] Black Hydra"
-		print "    [04] Hash Buster"
-		print "    [05] Cupp"
-		print "    [06] Social-Engineering"
-		print "    [07] Hashzer"
-		print "    [08] Hash-Generator"
-		print "    [09] Crunch"
-		print "    [10] Hashcat\n"
+		print "    [02] Black Hydra"
+		print "    [03] Hash Buster"
+		print "    [04] Cupp"
+		print "    [05] Social-Engineering"
+		print "    [06] Hash-Generator"
+		print "    [07] Crunch"\n"
 		print "    [00] Back to main menu\n"
 		Paswdatk = raw_input("GATE > ")
 
 		if Paswdatk == "01" or Paswdatk == "1":
 			hydra()
-		elif Paswdatk == "02" or Paswdatk == "2":
-			hashid()
-		elif Paswdatk == "03" or Paswdatk == "3":
+		elif Paswdatk == "02" or Paswdatk == "3":
 			black_hydra()
-		elif Paswdatk == "04" or Paswdatk == "4":
+		elif Paswdatk == "03" or Paswdatk == "4":
 			hash_buster()
-		elif Paswdatk == "05" or Paswdatk == "5":
+		elif Paswdatk == "04" or Paswdatk == "5":
 			cupp()
-		elif Paswdatk == "06" or Paswdatk == "6":
+		elif Paswdatk == "05" or Paswdatk == "6":
 			social()
-		elif Paswdatk == "07" or Paswdatk == "7":
-			hashzer()
-		elif Paswdatk == "08" or Paswdatk == "8":
+		elif Paswdatk == "06" or Paswdatk == "8":
 			hashgenerator()
-		elif Paswdatk == "09" or Paswdatk == "9":
+		elif Paswdatk == "07" or Paswdatk == "9":
 			crunch()
-		elif Paswdatk == "10":
-			hashcat()
 		elif Paswdatk == "00" or Paswdatk == "0":
 			restart_program()
 		else:
