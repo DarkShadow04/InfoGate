@@ -30,7 +30,7 @@ def main():
 		print "    [07] IPGeolocation"
 		print "    [08] Zenmap"
 		print "    [09] Saycheese"
-		print "    [10] Locator
+		print "    [10] Locator"
 		print "    [11] PhoneSploit\n"
 		print "    [00] Back to main menu\n"
 		infogathering = raw_input("GATE > ")
