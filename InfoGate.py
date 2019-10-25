@@ -30,7 +30,8 @@ def main():
 		print "    [07] IPGeolocation"
 		print "    [08] Zenmap"
 		print "    [09] Saycheese"
-		print "    [10] Locator\n"
+		print "    [10] Locator
+		print "    [11] PhoneSploit\n"
 		print "    [00] Back to main menu\n"
 		infogathering = raw_input("GATE > ")
 		
@@ -54,6 +55,8 @@ def main():
 			saycheese()
 		elif infogathering == "10":
 			locator()
+		elif infogathering == "11":
+			 PhoneSploit()
 		elif infogathering == "00" or infogathering == "0":
 			restart_program()
 
