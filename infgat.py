@@ -121,10 +121,10 @@ def locator():
 	backtomenu_option()
 	
 def PhoneSploit():
-	print '\n###### Installing RED HAWK'
+	print '\n###### Installing PhoneSploit'
 	os.system('apt update && apt upgrade')
 	os.system('apt install git python2')
-	os.system('git clone git clone https://github.com/Zucccs/PhoneSploit')
+	os.system('git clone https://github.com/Zucccs/PhoneSploit')
 	os.system('pip install colorama')
 	os.system('pip2 install colorama')
 	os.system('mv PhoneSploit ~')
