@@ -119,6 +119,17 @@ def locator():
 	os.system('mv locator ~')
 	print '###### Done'
 	backtomenu_option()
+	
+def PhoneSploit():
+	print '\n###### Installing RED HAWK'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2')
+	os.system('git clone git clone https://github.com/Zucccs/PhoneSploit')
+	os.system('pip install colorama')
+	os.system('pip2 install colorama')
+	os.system('mv PhoneSploit ~')
+	print '###### Done'
+	backtomenu_option()
 
 def infoga():
 	print '\n###### Installing Infoga'
