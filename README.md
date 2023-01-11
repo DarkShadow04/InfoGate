@@ -21,3 +21,7 @@ chmod +x InfoGate.py
 python2 InfoGate.py
 ```
 
+
+
+<h2> No longer maintained</h2>
+<p> no time to finish up, will make new one from scratch </p>
